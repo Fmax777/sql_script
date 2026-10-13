@@ -93,3 +93,5 @@ select cron.schedule(
 	'select def_date_file();'
 );
 	
+
+select * from cron.job;
